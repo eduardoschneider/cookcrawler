@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { IonicPage, NavController, ToastController } from 'ionic-angular';
 import { User } from '../../providers';
-import { MainPage } from '../';
+import { MainPage, TutorialPage } from '../';
 import { HttpClient } from '@angular/common/http';
 import { Md5 } from 'ts-md5/dist/md5';
 
@@ -51,16 +51,16 @@ export class LoginPage implements OnInit {
   // Attempt to login in through our User service
   doLogin() {
     this.user.login(this.account).subscribe((resp) => {
-      this.navCtrl.push(MainPage);
+      this.navCtrl.push(TutorialPage);
     }, (err) => {
-      this.navCtrl.push(MainPage);
+      this.navCtrl.push(TutorialPage);
       // Unable to log in
-      let toast = this.toastCtrl.create({
-        message: this.loginErrorString,
-        duration: 3000,
-        position: 'top'
-      });
-      toast.present();
+      //let toast = this.toastCtrl.create({
+       // message: this.loginErrorString,
+       // duration: 3000,
+      //  position: 'top'
+      //});
+      //toast.present();
     });
   }
 }
