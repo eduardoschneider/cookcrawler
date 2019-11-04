@@ -2,7 +2,7 @@
   background:url("../../assets/bg-lologin.png") no-repeat center center;
   background-size: cover;
   width:100%;
-  height:40vh;
+  height:35vh;
 }
 
 .row {
@@ -22,7 +22,7 @@ position:fixed;
 }
 
 .prato {
-  margin-top:20px;
+  margin-top:0px;
   position: absolute;
   top:0vh;
   display: flex;
@@ -31,6 +31,15 @@ position:fixed;
   width: 100%;
   height:40vh;
 
+}
+
+.terms {
+  font-size:11px;
+  margin-top:9px;
+  font-family: "Roboto";
+  color:black;
+  padding-left:50px;
+  padding-right:50px;
 }
 
 @font-face {
@@ -42,7 +51,6 @@ position:fixed;
   width:100%;
   text-align:center;
   color:#e02d2d;
-  font-family:font-login;
   font-size: 3vh;
   line-height: 1.6;
   padding:10px;
@@ -54,11 +62,13 @@ position:fixed;
 
 .button-login-facebook {
   margin-top:8px;
+  margin-bottom:7px;
   display: inline-block;
   font-family: font;
   -webkit-font-smoothing: antialiased;
   position: relative;
   padding: 1.4vh 1.6em;
+  width:75%;
   display: flex;
   align-items: flex-start;
   background: #4064AD;
@@ -69,18 +79,26 @@ position:fixed;
   font-size:13px;
   font-weight:bold;
   font-family:"Arial";
-  width:75%;
   border-radius:5px;
   line-height:1.65;
 }
 
+.or-enter-with {
+  font-size: 11px;
+  font-family: "Roboto";
+  margin-bottom:7px;
+  color:black;
+  font-family: Roboto;
+}
+
 .button-login-google {
-  margin-top:10px;
+  margin-top:8px;
   display: inline-block;
   font-family: font;
   -webkit-font-smoothing: antialiased;
   position: relative;
   padding: 1.4vh 1.6em;
+  width:75%;
   display: flex;
   align-items: flex-start;
   background: #db3d29;
@@ -88,10 +106,9 @@ position:fixed;
   color: white;
   transition: 0.2s;
   box-shadow:1px 1px 3px black;
-  font-size:13px;
+  font-size:12px;
   font-weight:bold;
   font-family:"Arial";
-  width:75%;
   border-radius:5px;
   line-height:1.65;
 }
@@ -120,18 +137,25 @@ position:fixed;
 
 .go-to-bottom {
   width:100%;
-  bottom:0;
-  position: absolute;
+  margin-top:10px;
   padding-bottom:10%;
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:flex-end;
+  justify-content:center;
+}
+
+.login-type-button {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
 }
 
 
 .container-login {
-  margin-top:8px;
+  margin-top:38px;
   display: flex;
   width:100%;
   justify-content: center;
@@ -232,3 +256,10 @@ position:fixed;
 #smoke .s7 { animation: smokeR 10s 7s infinite }
 #smoke .s8 { animation: smokeL 10s 8s infinite }
 #smoke .s9 { animation: smokeR 10s 9s infinite }
+
+.copyright {
+  color:black;
+  font-size:11px;
+  font-weight: 500;
+  margin-top:20px;
+}

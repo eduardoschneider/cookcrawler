@@ -9,9 +9,10 @@ page-tutorial {
   }
 
   .slide-zoom {
-    background-color: #deffbf;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='77' height='77' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23d3fabe' points='120 120 60 120 90 90 120 60 120 0 120 0 60 60 0 0 0 60 30 90 60 120 120 120 '/%3E%3C/svg%3E");
+    background-image: url("../../assets/bg-tutorial.png");
+    background-size: cover;
     height: 100vh;
+    width:100.2%;
   }
 
   .column {
@@ -20,11 +21,11 @@ page-tutorial {
 
   .slide-title {
     margin:auto;
-    font-size: 4.6vh;
+    font-size: 2.6vh;
   }
 
   .slide-description {
-    font-size: 3vh;
+    font-size: 2.5vh;
   }
 
   .slide-image {
@@ -63,7 +64,9 @@ page-tutorial {
 
 .tutorial-button {
   position: absolute;
-  bottom:-15vh;
+    bottom: 80px;
+    text-align: center;
+    width: 100%;
 }
 
 h2 {
@@ -76,4 +79,14 @@ h2 {
 	color:black;
 	border:1px solid black;
 	font-size:23px;
+}
+
+.customLink {
+  padding: 10px 60px 10px 60px;
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
 }

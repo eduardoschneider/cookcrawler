@@ -44,7 +44,8 @@
   outline: none;
 }
 .button-welcome {
-  font-family:"font";
+  font-family:"Roboto";
+  font-weight: 600;
   min-width: 15em;
 }
 .arrow {
@@ -58,6 +59,7 @@
   background: white;
 }
 .arrow:after {
+  padding-bottom: 20px;
   color: rgb(224, 45, 45);
   content: "»»";
   font-weight: bold;
@@ -74,9 +76,14 @@
 }
 
 .button-welcome {
-  box-shadow:0px 0px 3px black;
+  box-shadow:0px 0px 1px black;
   width:70%;
   border-radius:5px;
+}
+
+.smoke-welcome {
+    left: 64% !important;
+    top: 34% !important;
 }
 
 @-webkit-keyframes bounceright {
@@ -101,17 +108,23 @@
 
 @font-face {
   font-family: "font";
-  src: url(../../assets/Typo.otf);
+  src: url(../../assets/font-login.otf);
+}
+
+@font-face {
+  font-family: "title";
+  src: url(../../assets/inlanders.otf);
 }
 
 .cookcrawler {
-  margin-bottom:8vh;
-  min-width:100%;
-  margin-left:50px;
-  font-size:6.5vh;
-  text-shadow:1px 1px 4px rgb(42, 42, 42);
-  color:white;
-  font-family: "font";
+  margin-bottom: 4vh;
+  margin-top: 10vh;
+  min-width: 100%;
+  margin-left: 49px;
+  font-size: 5.5vh;
+  text-shadow: 1px 1px 0px #2a2a2a;
+  color: white;
+  font-family: "title";
 }
 
 
