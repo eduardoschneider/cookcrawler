@@ -14,6 +14,7 @@
 
 .profile-pic {
   border-radius: 100%;
+  border: 2px solid white;
   width:11.2vh;
   height:11.3vh;
 }
@@ -22,20 +23,28 @@
   width:13vh;
   height:13vh;
   border-radius:100%;
-  border:1px dashed black;
+  border:2px dashed white;
   position: absolute;
-  animation: spin 11s infinite linear;
+  animation: spin 25s infinite linear;
 }
 
 .name-tag {
-  font-weight: bold;
-  font-size:17px;
-  margin-top:1vh;
-  line-height: 0.8;
+  font-family: Roboto;
+    color: black;
+    line-height: 23px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .description {
-  font-size:14px;
+  color: #fff;
+  font-size:12px;
+  background-color: #3ca0f4;
+  margin-top:3px;
+    padding: 4px;
+    padding-left:7px;
+    padding-right: 7px;
+    border-radius: 5px;
 }
 
 .trophys {
@@ -80,7 +89,7 @@ page-list-master {
   .toolbar-background, .toolbar-background-md, .toolbar-background-ios {
     height:100vh;
     background-color: #beffb3;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23a8ffa0' stroke-width='0' stroke-opacity='0' %3E%3Ccircle fill='%23beffb3' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23bafbaf' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23b6f6ab' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23b1f2a7' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23adeda3' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23a9e99f' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23a5e49b' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23a1e097' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%239ddc93' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%2398d78f' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2394d38c' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2390cf88' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%238cca84' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2388c680' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2384c27c' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%2380bd78' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%237cb975' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%2378b571' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("../../assets/bg-main.png");
     background-attachment: fixed !important;
     background-size: cover !important;
   }
@@ -117,7 +126,7 @@ page-list-master {
 
 .intro-image {
   width: 40vh;
-  margin-top:3vh;
+  margin-top:8vh;
 }
 
 .star, .award, .money, .intro-image {

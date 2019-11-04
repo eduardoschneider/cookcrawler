@@ -1,9 +1,15 @@
 .tabs-md .tabbar, .tabs-ios .tabbar {
-    background-color:#94D38C !important;
+    background-color:#FC6A1D !important;
+    
+}
+
+.tab-button {
+  border-left:1px solid rgba(0, 0, 0, 0.5);
+  border-top:1px solid rgba(0, 0, 0, 0.5); 
 }
 
 //.tabs-md .tab-button.icon-only, .tabs-md .tab-button.has-title-only:nth-child(2) {
-//  border-bottom:1.75px solid white;
+//  border-bottom:1.75px solid white; 
  // border-top:1px solid white;
 //}
 
@@ -13,6 +19,6 @@
 //}
 
 .tabs-md .tab-button[aria-selected=true], .tabs-ios .tab-button[aria-selected=true] {
-  background-color:rgb(135, 184, 129) !important;
+  background-color:rgb(182, 71, 11) !important;
 }
 

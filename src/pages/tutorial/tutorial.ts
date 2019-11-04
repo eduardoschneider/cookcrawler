@@ -56,6 +56,10 @@ export class TutorialPage {
     });
   }
 
+  goToLogin() {
+    this.navCtrl.push('LoginPage');
+  }
+
   onSlideChangeStart(slider) {
     this.showSkip = !slider.isEnd();
   }

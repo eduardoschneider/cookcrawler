@@ -1,5 +1,5 @@
 <ion-content no-bounce>
-   <button *ngIf="showSkip" class="skip-button" ion-button (click)="startApp()" color="primary" clear>{{ 'TUTORIAL_SKIP_BUTTON' | translate}}</button>
+   <button *ngIf="showSkip" class="skip-button" ion-button (click)="goToLogin()" color="primary" clear>{{ 'TUTORIAL_SKIP_BUTTON' | translate}}</button>
    <div class="align-center flex">
    <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)">
       <ion-slide *ngFor="let slide of slides" class="align-center flex column">
@@ -12,7 +12,7 @@
       <br/><br/><br/>
         <img src="assets/img/ica-slidebox-img-4.svg" class="slide-image" />
         <h2 class="slide-title">{{ 'TUTORIAL_SLIDE4_TITLE' | translate }}</h2>
-        <p class="slide-description" style="display: flex; align-items: center; justify-content: center; margin-top:42px;"> <button class="button-welcome arrow" (click)="login()">Iniciar</button></p>
+        <p class="slide-description" style="display: flex; align-items: center; justify-content: center; margin-top:42px;"> <button class="button-welcome arrow" (click)="goToLogin()">Iniciar</button></p>
       </ion-slide>
     </ion-slides>
   </div>
