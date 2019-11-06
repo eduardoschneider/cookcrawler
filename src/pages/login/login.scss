@@ -35,7 +35,7 @@ position:fixed;
 
 .terms {
   font-size:11px;
-  margin-top:9px;
+  margin-top:3px;
   font-family: "Roboto";
   color:black;
   padding-left:50px;
@@ -75,11 +75,11 @@ position:fixed;
   border: none;
   color: white;
   transition: 0.2s;
-  box-shadow:1px 1px 3px black;
+  box-shadow:0px 1px 2px gray;
   font-size:13px;
   font-weight:bold;
   font-family:"Arial";
-  border-radius:5px;
+  border-radius:0px;
   line-height:1.65;
 }
 
@@ -105,34 +105,17 @@ position:fixed;
   border: none;
   color: white;
   transition: 0.2s;
-  box-shadow:1px 1px 3px black;
-  font-size:12px;
+  box-shadow:0px 1px 2px gray;
+  font-size:13px;
   font-weight:bold;
   font-family:"Arial";
-  border-radius:5px;
   line-height:1.65;
 }
 
 .button-login {
-  margin-top:10px;
-  display: inline-block;
-  font-family: font;
-  -webkit-font-smoothing: antialiased;
-  position: relative;
-  padding: 1.4vh 1.6em;
-  background: #db3d29;
-  border: none;
-  color: white;
-  transition: 0.2s;
-  box-shadow:1px 1px 3px black;
-  font-size:13px;
-  font-weight:bold;
-  font-family:"Arial";
-  width:75%;
-  text-align: center;
-  line-height: 65px;
-  border-radius:5px;
-  line-height:1.65;
+  background-color: #E23D3D;
+  width: 75%;
+  
 }
 
 .go-to-bottom {
@@ -194,7 +177,7 @@ position:fixed;
   outline: none;
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 0.5rem 0.7rem;
+  padding: 0.8rem 0.7rem;
   margin:2px;
   color: gray;
   transition: 0.1s ease-out;
@@ -258,6 +241,8 @@ position:fixed;
 #smoke .s9 { animation: smokeR 10s 9s infinite }
 
 .copyright {
+  position:absolute;
+  bottom:20px;
   color:black;
   font-size:11px;
   font-weight: 500;

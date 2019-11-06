@@ -1,6 +1,7 @@
 page-search {
   .background-search {
-    background-image: url("../../assets/bg-tutorial.png");
+    background-image: none;
+    background-color:white;
     background-attachment: fixed !important;
     background-size: cover !important;
     height: 100vh;
@@ -26,5 +27,32 @@ page-search {
      --background-checked:rgb(247, 138, 65) !important;
      
    }
+
+   .checkbox-md .checkbox-checked {
+    border-color: rgb(247, 138, 65);
+    background-color: rgb(247, 138, 65);
+}
+
+.find-recipes {
+  width:100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info-search {
+  font-size:10px;
+  text-align:center;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:5px;
+  font-weight:500;
+}
+
+.search-button {
+  width:80%;
+  background-color: #E23D3D;
+}
    
 }

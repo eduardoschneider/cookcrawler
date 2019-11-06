@@ -12,11 +12,16 @@ import { Items } from '../../providers';
 export class SearchPage {
 
   public form = [
-    { val: 'Pepperoni', isChecked: true },
-    { val: 'Sausage', isChecked: false },
-    { val: 'Mushroom', isChecked: false }
+    { val: 'Queijo', isChecked: true },
+    { val: 'Presunto', isChecked: false },
+    { val: 'Farinha', isChecked: false },
+    { val: 'Leite', isChecked: true },
+    { val: 'Ovos', isChecked: false },
+    { val: 'Frango', isChecked: false },
+    { val: 'Tomate', isChecked: true },
+    { val: 'Azeitona', isChecked: false }
   ];
-  
+
   currentItems: any = [];
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public items: Items) { }
