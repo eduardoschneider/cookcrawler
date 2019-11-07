@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { App, IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { Item } from '../../models/item';
 import { Items } from '../../providers';
@@ -24,7 +24,7 @@ export class SearchPage {
 
   currentItems: any = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public items: Items) { }
+  constructor(public navCtrl: NavController, public navParams: NavParams, public items: Items, private app: App) { }
 
   /**
    * Perform a service for the proper items.
@@ -47,6 +47,10 @@ export class SearchPage {
     this.navCtrl.push('ItemDetailPage', {
       item: item
     });
+  }
+
+  findRecipes() {
+    this.app.getRootNav().push('ListRecipesPage');
   }
 
 }
