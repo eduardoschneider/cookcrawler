@@ -7,6 +7,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'list-recipes.html'
 })
 export class ListRecipesPage {
-
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) { }
+
+  porra(){
+    this.navCtrl.pop();
+  }
 }

@@ -1,9 +1,8 @@
 page-list-recipes {
   .background-list-recipes {
-    background-color: white;
     background-image: none;
+    background-color:white;
     height: 99vh;
-    padding-top:5vh;
     overflow-y: auto;
   }
 
@@ -62,5 +61,36 @@ page-list-recipes {
   .img-clock {
     margin-right:6px;
     width:13px !important;
+  }
+
+  .header-list-recipes {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    padding-top:30px;
+    padding-bottom:15px;
+    font-family:Roboto;
+    font-size:19px;
+    font-weight:500;
+    color:white;
+    background-color:#FC6A1D;
+    position:fixed;
+  }
+
+  .voltar {
+    position: absolute;
+    left: 20px;
+    font-size: 26px;
+    background: none;
+    color: white;
+
+  }
+
+  .avaliacao-receita {
+    float: right;
+    margin-bottom: 12px;
+    margin-top: 8px;
   }
 }
